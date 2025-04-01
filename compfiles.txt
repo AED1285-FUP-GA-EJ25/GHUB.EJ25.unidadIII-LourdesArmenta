@@ -1,3 +1,4 @@
 ./miPrincipal/Principal.java
+./problema2/Condicion2.java
 ./miTest/AppTest.java
 ./problema1/Condicion1.java

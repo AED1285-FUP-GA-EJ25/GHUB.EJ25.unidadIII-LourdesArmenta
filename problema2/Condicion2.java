@@ -13,7 +13,25 @@ public class Condicion2{
     public static void condicion2(){
         //creo objeto Scanner
         Scanner entrada = new Scanner(System.in);
-        
+        //determinar variable de salida
+        String mens;
+        //determina varables de entrada
+        int numero;
+        System.out.print("Proporciona un numero:");
+        numero = entrada.nextInt();
+        mens = determinarPositivoNegativo(numero);
+        System.out.println("el numero "+numero+" "+mens);
+
+    }
+    public static String determinarPositivoNegativo(int numero){
+        String mensaje;
+        if(numero>0){
+           mensaje ="Positivo";
+        }
+        else{
+           mensaje ="Negativo";
+        }
+        return mensaje;
     }
 
 
