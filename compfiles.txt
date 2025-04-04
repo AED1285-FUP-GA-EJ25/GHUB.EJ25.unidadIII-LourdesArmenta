@@ -1,4 +1,7 @@
+./problema5/DeterminaMayor3.java
 ./miPrincipal/Principal.java
+./problema3/TramiteINE.java
 ./problema2/Condicion2.java
 ./miTest/AppTest.java
 ./problema1/Condicion1.java
+./problema4/TramiteINE.java

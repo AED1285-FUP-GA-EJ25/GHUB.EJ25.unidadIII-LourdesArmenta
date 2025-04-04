@@ -1,7 +1,8 @@
-package problema3;
+package problema4;
 /*
  * // Proposito:Determinar si una persona puede hacer su tramite de su INE
-	// considerando que se conoce su año de Nacimiento, utilizando
+	// considerando que se conoce su año de Nacimiento, y el año Actual donde ambos
+    // valores deben introducirse por teclado, deberá utilizar 
 	// una funcion que retorne el mensaje "Si pude tramitar' o 
 	// 'No puede tramitar' en función de la edad.
 	// Autor:
@@ -17,28 +18,31 @@ public class TramiteINE {
         //Datos salida
         String mens;
         //Dato de entrada
-        int anioNacimiento;
+        int anioActual,anioNacimiento;
         //proceso
+        System.out.print("Proporciona Anio Actual:");
+        anioActual = entrada.nextInt();
         System.out.print("Proporciona Anio de Naciomiento:");
         anioNacimiento = entrada.nextInt();
-        mens = tramitarSiNo(anioNacimiento);
+        mens = tramitarSiNo(anioActual,anioNacimiento);
         System.out.println(mens);
 
 
     }
-    public static String tramitarSiNo(int anioNacimiento){
+    public static String tramitarSiNo(int anioActual,int anioNacimiento){
         String mensaje;
-        final int  ANIO_ACTUAL = 2025;
         
-        int edad = ANIO_ACTUAL-anioNacimiento;
+        int edad = anioActual-anioNacimiento;
         if(edad>=18){
-           mensaje =  "Si puede tramitar";
+            mensaje = "Si puede tramitar";
 
         }else{
-            mensaje =  "No puede tramitar";
+            mensaje= "No puede tramitar";
         }
         return mensaje;
     
+    
+
     }
     
 }
