@@ -25,19 +25,25 @@ public class DeterminarMator2V2 {
         b = sc.nextInt();
         System.out.print("Proporciona tercer numero:");
         c = sc.nextInt();
-        if(a>b && b>c )
-        {
-            mayor = a;
-        }
-        if (b>a && b>c)
-        {
-            mayor = b;
-        }
-        if (c>a && c>b){
-            mayor = c;
-        }
+        mayor = determinarMayor(a, b, c);
         System.out.println("El mayor es: "+mayor);
 
+    }
+    public static int determinarMayor(int num1, int num2,int num3){
+        int mayor=0;
+
+        if(num1>num2 && num1>num3 )
+        {
+            mayor = num1;
+        }
+        if (num2>num1 && num2>num3)
+        {
+            mayor = num2;
+        }
+        if (num3>num1 && num3>num2){
+            mayor = num3;
+        }
+        return mayor;
 
 
     }

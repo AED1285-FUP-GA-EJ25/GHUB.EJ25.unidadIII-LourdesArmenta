@@ -18,7 +18,10 @@ public class Principal {
         //invoco al problema4
         //problema4.TramiteINE.tramiteINE();
 
-        problema5.DeterminaMayor3.determinaMayor3();
+        //problema5.DeterminaMayor3.determinaMayor3();
+
+        problema5.DeterminarMator2V2.determinaMayor3V2();
+
         
        
     }
