@@ -22,7 +22,10 @@ public class Principal {
 
         //problema5.DeterminarMator2V2.determinaMayor3V2();
 
-        problema5.DeterminarMayor3V3.determinarMayor3V3();
+        //problema5.DeterminarMayor3V3.determinarMayor3V3();
+
+        problema5.DeterminarMayor3V4.determinarMayor3V4();
+        
 
         
        
