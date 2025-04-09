@@ -4,6 +4,8 @@
 ./problema5/DeterminaMayor3.java
 ./miPrincipal/Principal.java
 ./problema3/TramiteINE.java
+./problema6/ComisionVentas.java
+./problema6/ComisionVentasV2.java
 ./problema2/Condicion2.java
 ./miTest/AppTest.java
 ./problema1/Condicion1.java
