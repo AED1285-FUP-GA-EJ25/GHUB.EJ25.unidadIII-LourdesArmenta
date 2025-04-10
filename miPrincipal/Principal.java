@@ -26,7 +26,9 @@ public class Principal {
 
         //problema5.DeterminarMayor3V4.determinarMayor3V4();
 
-        problema6.ComisionVentas.comisionVentas();
+        //problema6.ComisionVentas.comisionVentas();
+        problema7.EscribirNombreVocal.escribirNombreVocal();
+        
         
 
         
