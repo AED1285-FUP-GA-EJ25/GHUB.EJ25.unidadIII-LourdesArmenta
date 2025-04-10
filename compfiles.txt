@@ -2,6 +2,7 @@
 ./problema5/DeterminarMayor3V4.java
 ./problema5/DeterminarMayor3V3.java
 ./problema5/DeterminaMayor3.java
+./problema8/EscribirNumeroLetra.java
 ./miPrincipal/Principal.java
 ./problema3/TramiteINE.java
 ./problema7/EscribirNombreVocal.java
