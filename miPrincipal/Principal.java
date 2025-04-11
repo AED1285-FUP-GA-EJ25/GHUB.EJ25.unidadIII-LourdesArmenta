@@ -1,5 +1,6 @@
 package miPrincipal;
 
+import java.util.Scanner;
 
 public class Principal {
     
@@ -53,6 +54,36 @@ public class Principal {
         System.out.println("\t 0) Salir");
         System.out.println("**************************************************************");
         System.out.print("Seleccione Opcion:");
+
+    }
+    public static void seleccionarMenu(){
+        Scanner sc = new Scanner(System.in);
+        int opcion = sc.nextInt();
+        switch (opcion) {
+            case 1:
+                problema1.Condicion1.condicion1();
+                
+                break;
+            case 2:
+                problema2.Condicion2.condicion2();
+                break;
+            case 3:
+                problema3.TramiteINE.tramiteINE();
+                break;
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 0:
+                System.out.println("Adios!");
+                break;
+        
+            default:
+            System.out.println("Opcion invalida");
+                break;
+        }
 
     }
 }
