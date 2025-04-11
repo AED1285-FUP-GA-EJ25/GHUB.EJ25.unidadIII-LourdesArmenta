@@ -5,6 +5,7 @@ public class Principal {
     
 
     public static void main(String[] args) {
+        menu();
         //invocar al metodo estatico condicion1 de la clase Condicion1
         //forma1
         //problema1.Condicion1.condicion1();
@@ -28,11 +29,30 @@ public class Principal {
 
         //problema6.ComisionVentas.comisionVentas();
         //problema7.EscribirNombreVocal.escribirNombreVocal();
-        problema8.EscribirNumeroLetra.escribirNumeroLetra();
+       // problema8.EscribirNumeroLetra.escribirNumeroLetra();
+     
 
         
 
         
        
+    }
+    public static void menu(){
+        System.out.println();
+        System.out.println("*********************** Menu de Opciones**********************");
+        System.out.println("\t1) Determina si un numero es mayor que cero");
+        System.out.println("\t2) Determina si un numero es positivo o negativo");
+        System.out.println("\t3) Determina si una persona puede tramitar su INE");
+        System.out.println("\t4) Determina si una persona puede tramitar su INE version 2");
+        System.out.println("\t5) Determina el mayor de 3 numeros");
+        System.out.println("\t6) Calcula comision de ventas");
+        System.out.println("\t7) Determina el nombre de una vocal");
+        System.out.println("\t8) Determina un numero del 1 al 3 en letra");
+        System.out.println("\t9) Determina en monto de Peaje en base a un menu ");
+        System.out.println();
+        System.out.println("\t 0) Salir");
+        System.out.println("**************************************************************");
+        System.out.print("Seleccione Opcion:");
+
     }
 }
