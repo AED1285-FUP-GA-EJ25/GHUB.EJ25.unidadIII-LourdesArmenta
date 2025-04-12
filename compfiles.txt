@@ -11,4 +11,5 @@
 ./problema2/Condicion2.java
 ./miTest/AppTest.java
 ./problema1/Condicion1.java
+./problema9/CalcularPeaje.java
 ./problema4/TramiteINE.java
