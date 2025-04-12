@@ -44,19 +44,20 @@ public class Principal {
     public static void menu(){
         System.out.println();
         System.out.println("*************************** Menu de Opciones ************************");
-        System.out.println("*\t                                                            *");
-        System.out.println("*\t1) Determina si un numero es mayor que cero                 *");
-        System.out.println("*\t2) Determina si un numero es positivo o negativo            *");
-        System.out.println("*\t3) Determina si una persona puede tramitar su INE           *");
-        System.out.println("*\t4) Determina si una persona puede tramitar su INE version 2 *");
-        System.out.println("*\t5) Determina el mayor de 3 numeros                          *");
-        System.out.println("*\t6) Calcula comision de ventas                               *");
-        System.out.println("*\t7) Determina el nombre de una vocal                         *");
-        System.out.println("*\t8) Determina un numero del 1 al 3 en letra                  *");
-        System.out.println("*\t9) Determina en monto de Peaje en base a un menu            *");
-        System.out.println("*\t                                                            *");
-        System.out.println("*\t\t0) Salir                                            *");
-        System.out.println("*********************************************************************");
+        System.out.println("*\t                                                             *");
+        System.out.println("*\t 1) Determina si un numero es mayor que cero                 *");
+        System.out.println("*\t 2) Determina si un numero es positivo o negativo            *");
+        System.out.println("*\t 3) Determina si una persona puede tramitar su INE           *");
+        System.out.println("*\t 4) Determina si una persona puede tramitar su INE V2        *");
+        System.out.println("*\t 5) Determina el mayor de 3 numeros                          *");
+        System.out.println("*\t 6) Calcula comision de ventas                               *");
+        System.out.println("*\t 7) Determina el nombre de una vocal                         *");
+        System.out.println("*\t 8) Determina un numero del 1 al 3 en letra                  *");
+        System.out.println("*\t 9) Determina en monto de Peaje en base a un menu            *");
+        System.out.println("*\t 10) Determina en monto de Peaje en base a un menu V2        *");
+        System.out.println("*\t                                                             *");
+        System.out.println("*\t\t0) Salir                                             *");
+        System.out.println("**********************************************************************");
         System.out.print("Seleccione Opcion:");
 
     }
@@ -91,6 +92,9 @@ public class Principal {
 
             case 9:
                 problema9.CalcularPeaje.calcularPeaje();
+                break;
+            case 10:
+                problema9.CalcularPeajeV2.calcularPeajeV2();
                 break;
                 
             case 0:

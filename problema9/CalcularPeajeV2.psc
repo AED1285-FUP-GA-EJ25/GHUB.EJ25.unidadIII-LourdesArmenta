@@ -1,6 +1,6 @@
 Algoritmo CalcularPeajeV2
 	// propisito: seleccionar un tipo de vehiculo y dependiendo de este se
-	// le asigará una cuota de peaja utilizando la sentencia segun,
+	// le asigarï¿½ una cuota de peaja utilizando la sentencia segun,
 	// utilice una funcion para imprimir el menu de nombre imprimirMenu
 	// que no regrese nada y no reciba nada, de igual manera hacer otra funcion para seleccion
 	// la opcion del Menu de nombre seleccionarMenu que regrese el peaje de acuerdo al
@@ -16,7 +16,7 @@ Algoritmo CalcularPeajeV2
 	FinSi
 FinAlgoritmo
 Funcion imprimirMenu
-	Escribir '    Menu de Opeciones   ';
+	Escribir '    Menu de Opciones   ';
 	Escribir '1) Turismo ($500)       ';
 	Escribir '2) Autobus ($1000)      ';
 	Escribir '3) Motocicleta ($100)   ';
@@ -39,7 +39,7 @@ Funcion cuota_peaje<-seleccionarMenu()
 			Escribir 'Adios!';
 			cuota_peaje <- -1;
 		De Otro Modo:
-			Escribir 'Opcion inválida';
+			Escribir 'Opcion invï¿½lida';
 			cuota_peaje <- -1;
 	FinSegun
 FinFuncion
