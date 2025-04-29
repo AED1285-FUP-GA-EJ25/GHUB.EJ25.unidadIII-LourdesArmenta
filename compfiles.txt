@@ -1,3 +1,4 @@
+./problema10/DemostrarBucle1.java
 ./problema5/DeterminarMator2V2.java
 ./problema5/DeterminarMayor3V4.java
 ./problema5/DeterminarMayor3V3.java
@@ -6,11 +7,14 @@
 ./miPrincipal/Principal.java
 ./problema3/TramiteINE.java
 ./problema7/EscribirNombreVocal.java
+./problema13/GenerarTablaMultiplicar.java
 ./problema6/ComisionVentas.java
 ./problema6/ComisionVentasV2.java
 ./problema2/Condicion2.java
+./problema12/DemostrarBucle3.java
 ./miTest/AppTest.java
 ./problema1/Condicion1.java
 ./problema9/CalcularPeajeV2.java
 ./problema9/CalcularPeaje.java
+./problema11/DemostrarBucle2.java
 ./problema4/TramiteINE.java

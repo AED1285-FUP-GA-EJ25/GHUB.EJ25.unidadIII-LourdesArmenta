@@ -9,7 +9,8 @@ public class CalcularPeajeV2 {
         float cuota_peaje=seleccionarMenu();
 
         if (cuota_peaje != -1)
-            System.out.println("Cuota peaja: "+cuota_peaje);
+            
+            System.out.printf("Cuota peaje:$ %.2f %s",cuota_peaje," a pagar\n");
 
         
     }

@@ -36,10 +36,6 @@ public class Principal {
        // problema8.EscribirNumeroLetra.escribirNumeroLetra();
      
 
-        
-
-        
-       
     }
     public static void menu(){
         System.out.println();
@@ -55,6 +51,10 @@ public class Principal {
         System.out.println("*\t 8) Determina un numero del 1 al 3 en letra                  *");
         System.out.println("*\t 9) Determina en monto de Peaje en base a un menu            *");
         System.out.println("*\t 10) Determina en monto de Peaje en base a un menu V2        *");
+        System.out.println("*\t 11) Imprimir Hola 10 veces                                  *");
+        System.out.println("*\t 12) Imprimir del 1 al 10                                    *");
+        System.out.println("*\t 13) Imprimir del 10 al 1                                    *");
+        System.out.println("*\t 14) Generar una tabla de multiplicar                        *");
         System.out.println("*\t                                                             *");
         System.out.println("*\t\t0) Salir                                             *");
         System.out.println("**********************************************************************");
@@ -95,6 +95,19 @@ public class Principal {
                 break;
             case 10:
                 problema9.CalcularPeajeV2.calcularPeajeV2();
+                break;
+            case 11:
+                problema10.DemostrarBucle1.demostrarBubcle1();
+                break;
+            case 12:
+                problema11.DemostrarBucle2.demostrarBucle2();
+                break;
+            case 13:
+                problema12.DemostrarBucle3.demostrarBucle3();
+                break;
+            case 14:
+                problema13.GenerarTablaMultiplicar.generarTablaMultiplicar();
+                
                 break;
                 
             case 0:
