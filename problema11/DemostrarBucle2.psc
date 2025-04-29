@@ -9,7 +9,7 @@ FinAlgoritmo
 Funcion ImprimirBucle()
 	Definir i Como Entero;
 	Para i<-1 Hasta 10 con paso 1 hacer
-		Escribir "Hola";
+		Escribir i;
 	Fin Para
 	Escribir "Termine";
 	
