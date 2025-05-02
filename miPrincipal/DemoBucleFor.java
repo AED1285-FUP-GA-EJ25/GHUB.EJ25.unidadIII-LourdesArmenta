@@ -1,5 +1,8 @@
 package miPrincipal;
 
+import java.util.Scanner;
+
+
 public class DemoBucleFor {
     public static void main(String[] args) {
         //Uso del for
@@ -57,6 +60,43 @@ public class DemoBucleFor {
         System.out.println("Este es el valor de j"+j);
         */
         //El de arriba es un ciclo infinito
+        /*
+         * NOTA: Regresar hacia atras y revisar un tema de estructuras de bifurcacion
+         * que es el operado ?: diapositiva 13 del material colocado en Moodle
+         */
+        int a = 5, b =30;
+        /* con el uso de if
+        int mayor ;
+        if (a>b)
+           mayor = a;
+        else
+           mayor = b;
+        
+        System.out.println("El mayor es "+mayor);
+        */
+        //uso inLine
+        int mayor =  a>b ? a: b;
+        System.out.println("El mayor es "+mayor);
+        b = 3;
+        mayor =  a>b ? a: b;
+        System.out.println("El mayor es "+mayor);
+
+        //deterimina si un numero es para utilizando un if inLine o el operador ?:
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Proporciona un valor entero:");
+        short var;
+        var = teclado.nextShort();
+        String mensaje = var % 2 == 0? "Es par": "Es impar";
+        System.out.println(mensaje);
+
+
+
+
+
+
+
+
+        
         
 
 
