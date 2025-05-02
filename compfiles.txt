@@ -4,6 +4,7 @@
 ./problema5/DeterminarMayor3V3.java
 ./problema5/DeterminaMayor3.java
 ./problema8/EscribirNumeroLetra.java
+./miPrincipal/DemoBucleFor.java
 ./miPrincipal/Principal.java
 ./problema3/TramiteINE.java
 ./problema7/EscribirNombreVocal.java
@@ -13,6 +14,7 @@
 ./problema2/Condicion2.java
 ./problema12/DemostrarBucle3.java
 ./miTest/AppTest.java
+./problema14/CapturaCalificaciones.java
 ./problema1/Condicion1.java
 ./problema9/CalcularPeajeV2.java
 ./problema9/CalcularPeaje.java

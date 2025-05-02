@@ -3,6 +3,8 @@ package miPrincipal;
 import java.util.Scanner;
 //
 
+import problema14.CapturaCalificaciones;
+
 
 public class Principal {
     
@@ -10,31 +12,7 @@ public class Principal {
     public static void main(String[] args) {
         menu();
         seleccionarMenu();
-        //invocar al metodo estatico condicion1 de la clase Condicion1
-        //forma1
-        //problema1.Condicion1.condicion1();
-
-        //invocar al problema
-        //problema2.Condicion2.condicion2();
-
-        //invoca al problema3
-        //problema3.TramiteINE.tramiteINE();
-
-        //invoco al problema4
-        //problema4.TramiteINE.tramiteINE();
-
-        //problema5.DeterminaMayor3.determinaMayor3();
-
-        //problema5.DeterminarMator2V2.determinaMayor3V2();
-
-        //problema5.DeterminarMayor3V3.determinarMayor3V3();
-
-        //problema5.DeterminarMayor3V4.determinarMayor3V4();
-
-        //problema6.ComisionVentas.comisionVentas();
-        //problema7.EscribirNombreVocal.escribirNombreVocal();
-       // problema8.EscribirNumeroLetra.escribirNumeroLetra();
-     
+       
 
     }
     public static void menu(){
@@ -55,6 +33,7 @@ public class Principal {
         System.out.println("*\t 12) Imprimir del 1 al 10                                    *");
         System.out.println("*\t 13) Imprimir del 10 al 1                                    *");
         System.out.println("*\t 14) Generar una tabla de multiplicar                        *");
+        System.out.println("*\t 15) Calcular promedio de n calificaciones                   *");
         System.out.println("*\t                                                             *");
         System.out.println("*\t\t0) Salir                                             *");
         System.out.println("**********************************************************************");
@@ -109,6 +88,10 @@ public class Principal {
                 problema13.GenerarTablaMultiplicar.generarTablaMultiplicar();
                 
                 break;
+            case 15:
+                problema14.CapturaCalificaciones.capturaCalificaciones();
+                break;
+
                 
             case 0:
                 System.out.println("Adios!");
