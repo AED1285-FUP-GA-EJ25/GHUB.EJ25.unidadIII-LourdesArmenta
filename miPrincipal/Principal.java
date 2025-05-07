@@ -34,7 +34,8 @@ public class Principal {
         System.out.println("*\t 13) Imprimir del 10 al 1                                    *");
         System.out.println("*\t 14) Generar una tabla de multiplicar                        *");
         System.out.println("*\t 15) Calcular promedio de n calificaciones                   *");
-        System.out.println("*\t 16) Diferencias for, while y do..while                      *");
+        System.out.println("*\t 16) Calcula suma en intervalo 11 a 50                       *");
+        System.out.println("*\t 17) Captura numero mayor que cero                           *");
 
         System.out.println("*\t                                                             *");
         System.out.println("*\t\t0) Salir                                             *");
@@ -94,10 +95,13 @@ public class Principal {
                 problema14.CapturaCalificaciones.capturaCalificaciones();
                 break;
             case 16:
-                //pendiemte
+                problema16.SumaIntervalo.sumaIntervalo();
+                break;
+            case 17:
+                problema17.ValidaNumero.validaNumero();
                 break;
 
-                
+            
             case 0:
                 System.out.println("Adios!");
                 break;

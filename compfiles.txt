@@ -12,11 +12,14 @@
 ./problema6/ComisionVentas.java
 ./problema6/ComisionVentasV2.java
 ./problema2/Condicion2.java
+./problema16/SumaIntervalo.java
+./problema15/DemoMientras.java
 ./problema12/DemostrarBucle3.java
 ./miTest/AppTest.java
 ./problema14/CapturaCalificaciones.java
 ./problema1/Condicion1.java
 ./problema9/CalcularPeajeV2.java
 ./problema9/CalcularPeaje.java
+./problema17/ValidaNumero.java
 ./problema11/DemostrarBucle2.java
 ./problema4/TramiteINE.java
