@@ -36,6 +36,7 @@ public class Principal {
         System.out.println("*\t 15) Calcular promedio de n calificaciones                   *");
         System.out.println("*\t 16) Calcula suma en intervalo 11 a 50                       *");
         System.out.println("*\t 17) Captura numero mayor que cero                           *");
+        System.out.println("*\t 18) Calcular promedio de n calificaciones con CENTINELA     *");
 
         System.out.println("*\t                                                             *");
         System.out.println("*\t\t0) Salir                                             *");
@@ -100,8 +101,9 @@ public class Principal {
             case 17:
                 problema17.ValidaNumero.validaNumero();
                 break;
-
-            
+            case 18:
+                problema18.CalificacionesCentinela.calificacionesCentinela();
+                break;
             case 0:
                 System.out.println("Adios!");
                 break;
